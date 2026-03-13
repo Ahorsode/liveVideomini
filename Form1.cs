@@ -9,7 +9,7 @@ namespace liveVideos
     public partial class Form1 : Form
     {
         private HubConnection? _hubConnection;
-        private string serverIP = "http://localhost:5000/chathub";
+        private string serverIP = "http://10.156.224.5:5000/chathub";
 
         public Form1()
         {
