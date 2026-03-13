@@ -1,0 +1,5 @@
+2026/03/13-22:46:42.798 9d08 Creating DB C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\Local Storage\leveldb since it was missing.
+2026/03/13-22:46:42.892 9d08 Reusing MANIFEST C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/03/13-23:03:06.430 9598 Level-0 table #5: started
+2026/03/13-23:03:06.444 9598 Level-0 table #5: 80217 bytes OK
+2026/03/13-23:03:06.448 9598 Delete type=0 #3

@@ -39,3 +39,4 @@ C:\Users\ahors\source\repos\liveVideos\liveVideos\obj\Debug\net10.0-windows\refi
 C:\Users\ahors\source\repos\liveVideos\liveVideos\obj\Debug\net10.0-windows\liveVideos.pdb
 C:\Users\ahors\source\repos\liveVideos\liveVideos\obj\Debug\net10.0-windows\liveVideos.genruntimeconfig.cache
 C:\Users\ahors\source\repos\liveVideos\liveVideos\obj\Debug\net10.0-windows\ref\liveVideos.dll
+C:\Users\ahors\source\repos\liveVideos\liveVideos\obj\Debug\net10.0-windows\liveVideos.sourcelink.json
