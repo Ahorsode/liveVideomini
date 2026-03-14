@@ -1,4 +1,14 @@
-2026/03/13-23:10:59.088 b098 Reusing MANIFEST C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\IndexedDB\https_meet.jit.si_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/13-23:10:59.090 b098 Recovering log #9
-2026/03/13-23:10:59.091 b098 Reusing old log C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\IndexedDB\https_meet.jit.si_0.indexeddb.leveldb/000009.log 
-2026/03/13-23:10:59.092 b098 Delete type=2 #7
+2026/03/14-00:42:54.370 27b8 Reusing MANIFEST C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\IndexedDB\https_meet.jit.si_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/14-00:42:54.370 27b8 Recovering log #33
+2026/03/14-00:42:54.371 27b8 Reusing old log C:\Users\ahors\source\repos\liveVideos\liveVideos\bin\Debug\net10.0-windows\liveVideos.exe.WebView2\EBWebView\Default\IndexedDB\https_meet.jit.si_0.indexeddb.leveldb/000033.log 
+2026/03/14-00:42:54.372 27b8 Delete type=2 #31
+2026/03/14-00:43:13.093 dc8 Level-0 table #38: started
+2026/03/14-00:43:13.093 dc8 Level-0 table #38: 7783 bytes OK
+2026/03/14-00:43:13.095 dc8 Delete type=0 #33
+2026/03/14-00:43:13.096 50e4 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 793 : 1
+2026/03/14-00:43:13.097 50e4 Compacting 1@0 + 1@1 files
+2026/03/14-00:43:13.098 50e4 Generated table #39@0: 145 keys, 5089 bytes
+2026/03/14-00:43:13.098 50e4 Compacted 1@0 + 1@1 files => 5089 bytes
+2026/03/14-00:43:13.099 50e4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/14-00:43:13.099 50e4 Delete type=2 #38
+2026/03/14-00:43:13.100 50e4 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 793 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -21,6 +21,19 @@ namespace liveVideos
         private async void InitializeWebViewAsync()
         {
             await webView.EnsureCoreWebView2Async(null);
+            if (webView.CoreWebView2 != null)
+            {
+                webView.CoreWebView2.PermissionRequested += CoreWebView2_PermissionRequested;
+            }
+        }
+
+        private void CoreWebView2_PermissionRequested(object? sender, CoreWebView2PermissionRequestedEventArgs e)
+        {
+            if (e.PermissionKind == CoreWebView2PermissionKind.Camera || 
+                e.PermissionKind == CoreWebView2PermissionKind.Microphone)
+            {
+                e.State = CoreWebView2PermissionState.Allow;
+            }
         }
 
         private async Task ConnectToSignalRAsync()
@@ -35,7 +48,7 @@ namespace liveVideos
                 Invoke((Action)(() =>
                 {
                     lstChat.Items.Add($"{user}: {message}");
-                    lstChat.TopIndex = lstChat.Items.Count - 1; 
+                    lstChat.TopIndex = lstChat.Items.Count - 1;
                 }));
             });
 
@@ -59,7 +72,7 @@ namespace liveVideos
         private async void btnJoin_Click(object sender, EventArgs e)
         {
             string roomName = txtRoomName.Text.Trim();
-            
+
             if (string.IsNullOrEmpty(roomName))
             {
                 MessageBox.Show("Please enter a Room Name first.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -108,6 +121,11 @@ namespace liveVideos
                     }
                 }
             }
+        }
+
+        private void txtRoomName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
